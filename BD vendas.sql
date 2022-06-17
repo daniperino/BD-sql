@@ -29,7 +29,7 @@ where pedidos.Data_Venda between "2019-03-01" and "2019-03-31"; -- Total de 30 v
 select
 sum(Receita_Venda)
 from pedidos
-where Data_Venda between "2019-01-01" and "2019-12-31";  -- Total de R$228.900,00
+where Data_Venda between "2019-01-01" and "2019-12-31";  -- Total de R$228.900
 
 
 
